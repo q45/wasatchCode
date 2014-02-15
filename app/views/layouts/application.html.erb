@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>WasatchCode</title>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<div class="main-top">
+	<div class="container">
+		<div class="row header">
+			<nav class="navbar navbar-default" role="navigation">
+  				<div class="navbar-header">
+   					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+     					<span class="sr-only">Toggle navigation</span>
+     					<span class="icon-bar"></span>
+     			  		<span class="icon-bar"></span>
+      			 		<span class="icon-bar"></span>
+      			 	</button>
+    				<a class="navbar-brand" href="#">WASATCHCODE</a>
+  			   </div>
+
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    				<ul class="nav navbar-nav">
+      					<li class="active"><a href="#">HOME</a></li>
+      					<li><a href="#">OUR WORK</a></li>
+      					<li><a href="#">ABOUT US</a></li>
+      					<li><a href="#">CONTACT</a></li>
+    				</ul>
+				</div>
+			</nav>
+		</div>
+	</div>
+
+<%= yield %>
+
+</body>
+</html>
