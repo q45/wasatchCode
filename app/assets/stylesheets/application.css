@@ -245,6 +245,14 @@ a:hover, a:focus{
 	padding: 0 0 10px 0;
 }
 
+.caption {
+	padding-top: 82px;
+}
+
+.tech  {
+	float: left;
+}
+
 .bio{
 	color: #ecf0f1;
 	text-align: center;
